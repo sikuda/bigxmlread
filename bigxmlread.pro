@@ -5,7 +5,9 @@
 # method: open first level and rereading file if necessary.
 #
 
-QT           += xml
+QT           += xml \
+                widgets \
+                core5compat
 HEADERS       = bigxmlmainwindow.h \
                 bigxmlreader.h
 SOURCES       = bigxmlmain.cpp \

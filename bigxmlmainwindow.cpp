@@ -20,7 +20,7 @@ MainWindow::MainWindow()
     QStringList labels;
     labels << tr("Node/Attribute") << tr("Value");
 
-    bigxmlWidget.header()->setResizeMode(QHeaderView::ResizeToContents);
+    bigxmlWidget.header()->setSectionResizeMode(QHeaderView::ResizeToContents);
     bigxmlWidget.setHeaderLabels(labels);
     setCentralWidget(&bigxmlWidget);
 
