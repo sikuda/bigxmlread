@@ -6,8 +6,7 @@
 #
 
 QT           += xml \
-                widgets \
-                core5compat
+                widgets
 HEADERS       = bigxmlmainwindow.h \
                 bigxmlreader.h
 SOURCES       = bigxmlmain.cpp \
