@@ -6,7 +6,6 @@
 #include <QXmlStreamReader>
 #include <QTreeWidget>
 #include <QTreeWidgetItem>
-#include <QTextDecoder>
 
 QT_BEGIN_NAMESPACE
 class BigXmlReader;
